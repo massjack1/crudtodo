@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 14px;
+  min-height: 100vh;
+  background: #80BCBD;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 120px;
+}
+
+form,
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+form textarea {
+  resize: none;
+  width: 100%;
+  min-height: 60px;
+  padding: 14px;
+  background: #AAD9BB;
+  border-radius: 10px;
+  border: none;
+  outline-color: #80BCBD;
+}
+
+form button {
+  padding:15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  background: #F9F7C9;
+}
+ form button:hover {
+   background: #f0e999;
+ }
+
+.todoContainer,
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #D5F0C1;
+  border-radius: 10px;
+}
+
+.todo {
+  padding: 14px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+
+.btnContainer {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.iconBtn {
+  background: #F9F7C9;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0 8px;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.iconBtn:hover {
+  background: #f0e999;
+}
